@@ -35,7 +35,8 @@ class mouseE extends JFrame implements MouseListener{
 		jlb.setText(msgs[index]);
 	}
 
-	public void mouseEntered(MouseEvent arg0) {
+	public void mouseEntered(MouseEvent e) {
+		jlb.setText("he is here");
 	}
 
 	public void mouseExited(MouseEvent arg0) {
@@ -47,7 +48,6 @@ class mouseE extends JFrame implements MouseListener{
 	}
 	
 	public void mouseReleased(MouseEvent arg0) {
-		jlb.setText("Êó±ê°´¼üËÉ¿ª¡£");
 	}
 	
 }
